@@ -1,0 +1,33 @@
+.d-flex {
+  display: flex;
+}
+.bg-white {
+  background-color: white;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-20 {
+  padding: 20px;
+}
+.m-10 {
+  margin: 10px;
+}
+.m-20 {
+  margin: 20px;
+}
+.p-relative {
+  position: relative;
+}
+.txt-c {
+  text-align: center;
+}
+.align-center {
+  align-items: center;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.rad-6 {
+  border-radius: 6px;
+}
