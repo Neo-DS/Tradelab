@@ -1,5 +1,29 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
+}
 .d-flex {
   display: flex;
+}
+@media (max-width : 767px){
+  .display-block{
+    display: block;
+  }
+}
+.between-flex {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.d-grid{
+  display: grid;
+}
+.gap-20{
+  gap: 20px;
 }
 .bg-white {
   background-color: white;
@@ -25,6 +49,11 @@
 .txt-c {
   text-align: center;
 }
+@media (max-width : 767px){
+  .txt-c-mobile{
+    text-align: center;
+  }
+}
 .align-center {
   align-items: center;
 }
@@ -34,11 +63,11 @@
 .rad-6 {
   border-radius: 6px;
 }
-.between-flex {
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
+.rad-10{
+  border-radius: 10px;
 }
+
 .w-full{
   width: 100%;
 }
+
