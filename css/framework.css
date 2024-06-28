@@ -7,6 +7,9 @@
 .p-10 {
   padding: 10px;
 }
+.p-15{
+  padding: 15px;
+}
 .p-20 {
   padding: 20px;
 }
@@ -30,4 +33,12 @@
 }
 .rad-6 {
   border-radius: 6px;
+}
+.between-flex {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.w-full{
+  width: 100%;
 }

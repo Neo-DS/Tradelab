@@ -1,3 +1,11 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
+}
 * {
   box-sizing: border-box;
 }
@@ -20,7 +28,7 @@ ul {
   padding: 0;
 }
 .sidebar {
-  width: 300px;
+  width: 250px;
   box-shadow: 0 0 10px #ddd;
 }
 .sidebar > h3 {
@@ -81,4 +89,57 @@ ul {
   .sidebar ul li a span {
     display: none;
   }
+}
+.page .content {
+}
+.page .content .head {
+}
+.page .content .head .search input {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-left: 5px;
+  padding-left: 30px;
+  width: 160px;
+  transition: width 0.3s;
+}
+.page .content .head .search::before {
+  font-family: var(--fa-style-family-classic);
+  content: "\f002";
+  width: 20px;
+  font-weight: 900;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: var(--grey-color);
+}
+.page .content .head .search input:focus {
+  width: 200px;
+
+}
+.page .content .head .search input:focus::placeholder {
+  opacity: 0;
+  
+}
+
+.page .content .head .icons {
+}
+.notification::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: var(--red-color);
+  position: absolute;
+  border-radius: 5px;
+  left: 12px;
+  top: -8px;
+}
+.notification > i {
+  width: 30px;
+}
+.page .content .head .icons img {
+  width: 30px;
+  height: 30px;
+  margin-left: 6px;
 }
