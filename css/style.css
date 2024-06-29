@@ -234,3 +234,20 @@ ul {
     margin-bottom: 20px;
   }
 }
+.quick-draft {
+  background-color: white;
+}
+.quick-draft textarea {
+  resize: none;
+  min-height: 180px;
+}
+.quick-draft .save {
+  display: block;
+  background-color: var(--blue-color);
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  margin: 0px 15px 15px auto;
+}
