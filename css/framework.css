@@ -169,3 +169,9 @@
 .fw-bold {
   font-weight: bold;
 }
+.txt-left {
+  text-align: left;
+}
+.fs-25 {
+  font-size: 25px;
+}

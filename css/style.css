@@ -315,3 +315,26 @@ ul {
 .green .progress {
   background-color: rgb(34 197 94 / 20%);
 }
+
+.news-card img {
+  width: 100px;
+  height: 60px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.news-cards {
+  display: block;
+}
+.card-creation-time {
+  width: fit-content;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+  font-size: 12;
+  margin: 10px 15px 15px auto;
+}
+.news-cards .news-card:not(:last-of-type) {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
