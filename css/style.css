@@ -251,11 +251,13 @@ ul {
   border-radius: 5px;
   margin: 0px 15px 15px auto;
 }
-.tickets .ticket-card {
-  display: flex;
-  flex-direction: row;
-  flex-basis: 1;
+/* start tickets */
+.tickets .box {
+  border: 1px solid #ccc;
+  width: calc(50% - 10px);
 }
+
+/* end tickets */
 .targets .target-row .icon {
   width: 80px;
   height: 80px;

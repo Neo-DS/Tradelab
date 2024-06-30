@@ -15,11 +15,15 @@
 .bg-green {
   background-color: var(--green-color);
 }
+
 .d-block {
   display: block;
 }
 .d-flex {
   display: flex;
+}
+.f-wrap {
+  flex-wrap: wrap;
 }
 .space-between {
   justify-content: space-between;
@@ -145,6 +149,9 @@
 }
 .color-green {
   color: var(--green-color);
+}
+.color-red {
+  color: var(--red-color);
 }
 .b-gray {
   background-color: #eee;
